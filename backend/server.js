@@ -15,7 +15,7 @@ const port = process.env.PORT || 4000;
 // middlewares
 app.use(express.json())
 app.use(cors({
-  origin: ["https://food-one-tau.vercel.app"],
+  origin: [""],
   methods:["POST","GET"],
   credentials:true
 }))
